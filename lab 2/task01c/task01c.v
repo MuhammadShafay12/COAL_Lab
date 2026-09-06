@@ -1,0 +1,35 @@
+module sum(a,b,c,out);
+input a;
+input b;
+input c;
+output out;
+assign out=a^b^c;
+endmodule
+module carry(a,b,c,car);
+input a;
+input b;
+input c;
+output car;
+assign car=(a&b)|(b&c)|(a&c);
+endmodule 
+module test_bench_full_adder();
+reg x;
+reg y;
+reg z;
+wire out1;
+wire c1;
+sum s1(.a(x),.b(y),.c(z),.out(out1));
+carry c2(.a(x),.b(y),.c(z),.car(c1));
+initial
+begin
+x=0;y=0;z=0;#50;
+x=0;y=0;z=1;#50;
+x=0;y=1;z=0;#50;
+x=0;y=1;z=1;#50;
+x=1;y=0;z=0;#50;
+x=1;y=0;z=1;#50;
+x=1;y=1;z=0;#50;
+x=1;y=1;z=1;#50;
+end
+endmodule
+

@@ -1,0 +1,9 @@
+{D:/coal lab/lab 2/task02/task02.v} {1 {vlog -work work -stats=none {D:/coal lab/lab 2/task02/task02.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module decoder
+-- Compiling module decoder_testbench
+
+Top level modules:
+	decoder_testbench
+
+} {} {}}

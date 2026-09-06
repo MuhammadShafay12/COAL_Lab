@@ -1,0 +1,35 @@
+module mux(a,b,c,d,e,f,g,h,i,j,k,out);
+input a,b,c,d,e,f,g,h,i,j,k;
+output out;
+wire s1,s2,s3,d1,e1,f1,g1,h1,i1,j1,k1;
+not(s1,a);
+not(s2,b);
+not(s3,c);
+and(d1,s1,s2,s3,d);
+and(e1,s1,s2,c,e);
+and(f1,s1,b,s3,f);
+and(g1,s1,b,c,g);
+and(h1,a,s2,s3,h);
+and(i1,a,s2,c,i);
+and(j1,a,b,s3,j);
+and(k1,a,b,c,k);
+or(out,d1,e1,f1,g1,h1,i1,j1,k1);
+endmodule
+module mux1_test_bench();
+reg x,y,z,p,q,r,s,t,u,v,w;
+wire c1;
+mux uu(.a(x),.b(y),.c(z),.d(p),.e(q),.f(r),.g(s),.h(t),.i(u),.j(v),.k(w),.out(c1));
+initial
+begin
+p = 0;q = 1;r = 0;s = 1;t = 1;u = 0;v = 1;w = 0;
+x=0;y=0;z=0;#50;
+x=0;y=0;z=1;#50;
+x=0;y=1;z=0;#50;
+x=0;y=1;z=1;#50;
+x=1;y=0;z=0;#50;
+x=1;y=0;z=1;#50;
+x=1;y=1;z=0;#50;
+x=1;y=1;z=1;#50;
+end
+endmodule
+

@@ -1,0 +1,9 @@
+{D:/coal lab/lab 2/task03b/task03b.v} {1 {vlog -work work -stats=none {D:/coal lab/lab 2/task03b/task03b.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mux
+-- Compiling module mux1_test_bench
+
+Top level modules:
+	mux1_test_bench
+
+} {} {}}

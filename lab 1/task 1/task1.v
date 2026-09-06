@@ -1,0 +1,149 @@
+module AND_gate(a,b,c);  //AND Gate
+input a;
+input b;
+output c;
+and chk(c,a,b);
+
+endmodule
+module AND_test_bench();// the input vars would be of reg type and the output vars would be of wire type
+reg x;
+reg y;
+wire z;
+AND_gate uu(.a(x),.b(y),.c(z));
+initial
+begin
+x=0;y=0;
+#50 x=1;y=0;
+#50 x=0;y=1;
+#50 x=1;y=1;
+#50;
+end
+endmodule
+//   OR Gate
+module OR_gate(a,b,c);  //or Gate
+input a;
+input b;
+output c;
+or chk(c,a,b);
+
+endmodule
+module OR_test_bench();// the input vars would be of reg type and the output vars would be of wire type
+reg x;
+reg y;
+wire z;
+ OR_gate uu(.a(x),.b(y),.c(z));
+initial
+begin
+x=0;y=0;
+#50 x=1;y=0;
+#50 x=0;y=1;
+#50 x=1;y=1;
+#50;
+end
+endmodule
+//not gate
+module NOT_gate(a,c);  //AND Gate
+input a;
+output c;
+not chk(c,a);
+
+endmodule
+module NOT_test_bench();// the input vars would be of reg type and the output vars would be of wire type
+reg x;
+wire z;
+ NOT_gate uu(.a(x),.c(z));
+initial
+begin
+x=0;
+#50 x=1;
+#50;
+end
+endmodule
+//NoR Gate
+module NOR_gate(a,b,c);  
+input a;
+input b;
+output c;
+nor chk(c,a,b);
+
+endmodule
+module NOR_test_bench();// the input vars would be of reg type and the output vars would be of wire type
+reg x;
+reg y;
+wire z;
+NOR_gate uu(.a(x),.b(y),.c(z));
+initial
+begin
+x=0;y=0;
+#50 x=1;y=0;
+#50 x=0;y=1;
+#50 x=1;y=1;
+#50;
+end
+endmodule
+//XOR Gate
+module XOR_gate(a,b,c);  
+input a;
+input b;
+output c;
+xor chk(c,a,b);
+
+endmodule
+module XOR_test_bench();// the input vars would be of reg type and the output vars would be of wire type
+reg x;
+reg y;
+wire z;
+XOR_gate uu(.a(x),.b(y),.c(z));
+initial
+begin
+x=0;y=0;
+#50 x=1;y=0;
+#50 x=0;y=1;
+#50 x=1;y=1;
+#50;
+end
+endmodule
+//NAND Gate
+module NAND_gate(a,b,c);  
+input a;
+input b;
+output c;
+nand chk(c,a,b);
+
+endmodule
+module NAND_test_bench();// the input vars would be of reg type and the output vars would be of wire type
+reg x;
+reg y;
+wire z;
+NAND_gate uu(.a(x),.b(y),.c(z));
+initial
+begin
+x=0;y=0;
+#50 x=1;y=0;
+#50 x=0;y=1;
+#50 x=1;y=1;
+#50;
+end
+endmodule
+// XNOR Gate
+module XNOR_gate(a,b,c);  
+input a;
+input b;
+output c;
+xnor chk(c,a,b);
+
+endmodule
+module XNOR_test_bench();// the input vars would be of reg type and the output vars would be of wire type
+reg x;
+reg y;
+wire z;
+XNOR_gate uu(.a(x),.b(y),.c(z));
+initial
+begin
+x=0;y=0;
+#50 x=1;y=0;
+#50 x=0;y=1;
+#50 x=1;y=1;
+#50;
+end
+endmodule

@@ -1,0 +1,10 @@
+{D:/coal lab/lab 2/task01b/task01b.v} {1 {vlog -work work -stats=none {D:/coal lab/lab 2/task01b/task01b.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module sum
+-- Compiling module carry
+-- Compiling module test_bench_half_adder
+
+Top level modules:
+	test_bench_half_adder
+
+} {} {}}

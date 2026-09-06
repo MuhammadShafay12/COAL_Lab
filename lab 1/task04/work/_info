@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/
+vcomp_big
+Z0 !s110 1787498333
+!i10b 1
+!s100 7;:Ao4`FNS[GoHz?=EZ_I1
+ImMnij<:n7D3Alg?GG21BT0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/coal lab/lab 1/task04
+Z3 w1787498327
+Z4 8D:/coal lab/lab 1/task04/task04.v
+Z5 FD:/coal lab/lab 1/task04/task04.v
+L0 1
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1787498333.000000
+Z8 !s107 D:/coal lab/lab 1/task04/task04.v|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|D:/coal lab/lab 1/task04/task04.v|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vtest_bench04
+R0
+!i10b 1
+!s100 bb0TDIZ:UH]QQS>5Q@P1S0
+IX3ZIiz]9nik3b=8IG3GYP1
+R1
+R2
+R3
+R4
+R5
+L0 15
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11

@@ -1,0 +1,27 @@
+{D:/coal lab/lab 1/task 1/task1.v} {1 {vlog -work work -stats=none {D:/coal lab/lab 1/task 1/task1.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module AND_gate
+-- Compiling module AND_test_bench
+-- Compiling module OR_gate
+-- Compiling module OR_test_bench
+-- Compiling module NOT_gate
+-- Compiling module NOT_test_bench
+-- Compiling module NOR_gate
+-- Compiling module NOR_test_bench
+-- Compiling module XOR_gate
+-- Compiling module XOR_test_bench
+-- Compiling module NAND_gate
+-- Compiling module NAND_test_bench
+-- Compiling module XNOR_gate
+-- Compiling module XNOR_test_bench
+
+Top level modules:
+	AND_test_bench
+	OR_test_bench
+	NOT_test_bench
+	NOR_test_bench
+	XOR_test_bench
+	NAND_test_bench
+	XNOR_test_bench
+
+} {} {}}
